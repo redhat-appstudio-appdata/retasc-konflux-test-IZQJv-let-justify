@@ -12,7 +12,7 @@ spec:
       creationTimestamp: null
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/rh-ee-lholecek-tenant/retasc-konflux-test/retasc-konflux-test@sha256:e3fda1bf43f3ae7c171e72370a7af9341524276ba2f56279318692eb81be6775
+      - image: quay.io/redhat-user-workloads/rh-ee-lholecek-tenant/retasc-konflux-test/retasc-konflux-test@sha256:f45d6d5f0d7c458f5be8933f9a899e31178b8190be84e13640f41dccd5f66534
         name: my-go
         resources: {}
 status: {}
