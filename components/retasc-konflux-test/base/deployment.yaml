@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: retasc-konflux-test
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/rh-ee-lholecek-tenant/retasc-konflux-test/retasc-konflux-test@sha256:e07518605558143691216de60a0115f2c46850320f2ae391a500ffe1ce0f0f09
+      - image: quay.io/redhat-user-workloads/rh-ee-lholecek-tenant/retasc-konflux-test/retasc-konflux-test@sha256:5a6710c0006033811be4da2cf74adc102068470c9f6503460c862393496a8910
         name: my-go
         ports:
         - containerPort: 8081
