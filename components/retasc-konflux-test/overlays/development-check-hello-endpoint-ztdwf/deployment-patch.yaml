@@ -1,0 +1,18 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: retasc-konflux-test
+spec:
+  replicas: 1
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-user-workloads/rh-ee-lholecek-tenant/retasc-konflux-test/retasc-konflux-test@sha256:37e3a16c05c783f77fdeec994942c6b74b1c40021f510c47b8f06e129c73b460
+        name: my-go
+        resources: {}
+status: {}
